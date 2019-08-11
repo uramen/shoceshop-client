@@ -96,7 +96,7 @@ export default class Client {
 		this.apps = {};
 		this.apps.settings = new AppSettings(apiClient);
 
-		this.ajax = {};
+		this.ajax = ajaxClient;
 		this.ajax.products = new Products(ajaxClient);
 		this.ajax.sitemap = new Sitemap(ajaxClient);
 		this.ajax.cart = new AjaxCart(ajaxClient);
