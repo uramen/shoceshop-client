@@ -2,6 +2,7 @@ import RestClient from './restClient';
 
 export default class AjaxClient extends RestClient {
 	constructor(options) {
+		super(options);
 		this.locale = 'en';
 	}
 

@@ -3,6 +3,7 @@ import RestClient from './restClient';
 
 export default class ApiClient extends RestClient {
 	constructor(options) {
+		super(options);
 		this.locale = 'en';
 	}
 
