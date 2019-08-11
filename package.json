@@ -1,5 +1,5 @@
 {
-  "name": "cezerin2-client",
+  "name": "shoceshop-client",
   "version": "0.35.0",
   "description": "Cezerin2 API client library. Work on browser and server.",
   "keywords": [
@@ -11,31 +11,17 @@
     "ecommerce api",
     "shopping cart api"
   ],
-  "homepage": "https://cezerin.com",
-  "bugs": "https://github.com/cezerin2/client/issues",
+  "homepage": "https://github.com/uramen/shoceshop-client",
+  "bugs": "https://github.com/uramen/shoceshop-client/issues",
   "license": "MIT",
   "author": {
-    "name": "Restmount <jsonmount@gmail.com>",
-    "url": "https://github.com/restmount"
+    "name": "Uramen <uramen12@gmail.com>",
+    "url": "https://github.com/uramen"
   },
-  "contributors": [
-    {
-      "name": "Luke Busstra <luke.busstra@gmail.com>",
-      "url": "https://github.com/lubuss"
-    },
-    {
-      "name": "Restmount <jsonmount@gmail.com>",
-      "url": "https://github.com/restmount"
-    },
-    {
-      "name": "Sergey Onufrienko <sergey@onufrienko.com>",
-      "url": "https://github.com/sonufrienko"
-    }
-  ],
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cezerin2/client"
+    "url": "https://github.com/uramen/shoceshop-client"
   },
   "scripts": {
     "build": "babel src -d lib",

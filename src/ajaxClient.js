@@ -1,12 +1,21 @@
 import RestClient from './restClient';
 
 export default class AjaxClient extends RestClient {
+	constructor(options) {
+		this.locale = 'en';
+	}
+
+	setLocale(locale) {
+		this.locale = locale;
+	}
+
 	getConfig(method, data, cookie) {
 		const config = {
 			credentials: this.getCredentialsConfig(this.baseUrl),
 			method,
 			headers: {
-				'Content-Type': 'application/json'
+				'Content-Type': 'application/json',
+				'Accept-Language': this.locale
 			}
 		};
 

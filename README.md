@@ -12,14 +12,14 @@ Client include:
 Install with:
 
 ```
-npm i cezerin2-client
+npm i shoceshop-client
 ```
 
 
 ## Initialize
 
 ```javascript
-import CezerinClient from 'cezerin2-client';
+import CezerinClient from 'shoceshop-client';
 
 const api = new CezerinClient({
   apiBaseUrl: 'https://website.com/api/v1',
